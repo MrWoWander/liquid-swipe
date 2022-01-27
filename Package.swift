@@ -22,7 +22,7 @@ let package = Package(
             name: "liquid-swipe",
             dependencies: [],
             resources: [
-                .process("Assets/")
+                .process("Assets")
             ]),
         .binaryTarget(name: "pop", path: "pop.xcframework")
     ]

@@ -9,7 +9,7 @@ import Foundation
 
 extension Bundle {
     static var resourseBundle: Bundle {
-        let frameworkBundle = Bundle(for: LiquidSwipeContainerController.self)
+        let frameworkBundle = Bundle.module
         if let resourseBundlePath = frameworkBundle.path(forResource: "liquid-swipe", ofType: "bundle") {
             return Bundle(path: resourseBundlePath) ?? frameworkBundle
         }

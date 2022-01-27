@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "liquid-swipe",
+        "repositoryURL": "https://git.senla.eu/mikhail_ivanov/liquid-swipe",
+        "state": {
+          "branch": "master",
+          "revision": "069de0696d3abf0a4c6b79ba804d407ae8b459a5",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
